@@ -1,15 +1,79 @@
+# Gradle build outputs
+/build/
+app/build/
+**/build/
+
+# Gradle cache
+.gradle/
+gradle-app.setting
+
+# Keep Gradle wrapper files (needed to build without local Gradle install)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Android Studio / Idea
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/navEditor.xml
+.idea/jarRepositories.xml
+
+# SDK path and local machine config
 local.properties
+
+# Signing secrets
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+release.properties
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Kotlin compiler cache
+.kotlin/
+
+# Kotlin scratch files
+scratch.kts
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+
+# Android Studio screen captures
+captures/
+
+# Lint reports
+lint/
+
+# Profiling / memory dumps
+*.hprof
+
+# Test results
+test-results/
